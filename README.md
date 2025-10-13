@@ -31,71 +31,67 @@ Este proyecto se construye sobre un stack de tecnologías web modernas, enfocado
 
 ---
 
-## 🎯 Prototipo Inicial: El Grimorio (Primer Hito de la Fase 1)
-
-Antes de implementar la totalidad de las funcionalidades, el primer gran objetivo es desarrollar un **prototipo funcional** enfocado en el Perfil D&D 5e. Este "slice vertical" servirá para validar la arquitectura y las tecnologías clave.
-
-**El objetivo del prototipo es:** *Un usuario debe poder ver una lista de conjuros del SRD de D&D 5e, filtrarlos, hacer clic en uno para ver sus detalles y añadirlo a una lista de "conjuros preparados" de un personaje de prueba.*
-
-Las tareas específicas para lograr este prototipo son las primeras de la Fase 1 en la hoja de ruta detallada a continuación.
-
----
-
 ## 🗺️ Hoja de Ruta Detallada
 
-Esta es la visión general y el checklist de desarrollo para "Mesa de Juego".
+El desarrollo se organiza en fases, y cada fase se compone de **hitos de desarrollo con entregables probables**.
 
-### ✅ Fase 1: Fundación y Sistemas Core
+### ✅ Fase 1: Fundación y Perfil D&D 5e Completo
 
-El objetivo de esta fase es construir la estructura fundamental de la aplicación y lanzar los dos primeros perfiles de sistema con sus herramientas esenciales.
+El objetivo de esta fase es construir la arquitectura fundamental de la aplicación y lanzar una versión completamente funcional del **Perfil D&D 5e**.
 
-**1. Arquitectura y Preparación de Datos**
-- [x] **Entorno de Desarrollo:** Configuración de React, Vite, TypeScript y Git.
-- [x] **Sincronización de Entorno:** Flujo de trabajo con Git para múltiples computadoras.
-- [x] **Documentación Inicial:** Creación de un `README.md` detallado.
-- [ ] **Estructura de Carpetas del Proyecto:** Definir y crear la organización de directorios (`components`, `types`, `hooks`, `services`, `data`).
-- [ ] **Modelado de Datos (TypeScript):**
-    - [ ] Definir las interfaces base (`Character`, `Spell`, `Item`, `Feat`).
-    - [ ] Adaptar interfaces para las especificidades de D&D 5e y Paizo.
-- [ ] **Preparación de Datos (Python):**
-    - [ ] Desarrollar script de web scraping para `Archives of Nethys` (Pathfinder 2e).
-    - [ ] Desarrollar script de web scraping para `5e.tools` o similar (D&D 5e).
-    - [ ] Procesar y generar los archivos `JSON` base del SRD.
+**Hito 1.1: Prototipo "El Grimorio" (Prueba de Concepto)**
+*El objetivo es validar la arquitectura base. Al final de este hito, se podrá probar la interacción con una lista de conjuros de D&D 5e.*
+- [x] **Entorno y Documentación:** Configuración de Git, React, Vite y `README.md`.
+- [ ] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
+- [ ] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
+- [ ] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD de D&D 5e.
+- [ ] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
+- [ ] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
+- [ ] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
+- [ ] **Funcionalidad de Prueba:**
+    - [ ] Crear una página "Grimorio" que liste los conjuros.
+    - [ ] Implementar un modal para ver el detalle de un conjuro.
+    - [ ] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
 
-**2. Desarrollo del Núcleo de la Aplicación**
-- [ ] **Arquitectura de Perfiles:** Crear el sistema que permita cambiar entre perfiles de juego (D&D, Paizo).
-- [ ] **Gestión de Base de Datos:** Implementar un servicio (`wrapper`) para interactuar con IndexedDB (ej. usando Dexie.js).
-- [ ] **Componentes de UI Fundamentales:**
-    - [ ] Instalar y configurar una librería de componentes UI (ej. Material-UI).
-    - [ ] Crear componentes reutilizables base (`Header`, `Sidebar`, `Card`, `Modal`).
-- [ ] **Sistema de Importación/Exportación y Backup:**
-    - [ ] Lógica para importar datos desde archivos JSON.
-    - [ ] Lógica para exportar datos a JSON y PDF.
-    - [ ] Implementar funciones de backup y restauración.
+**Hito 1.2: Núcleo de la Aplicación y Herramientas Genéricas**
+*El objetivo es crear los sistemas transversales y componentes reutilizables.*
+- [ ] **Arquitectura de Perfiles:** Implementar el sistema base para poder seleccionar un perfil de juego (aunque solo exista D&D 5e por ahora).
+- [ ] **Gestión de Datos:** Implementar el sistema de **Importación/Exportación** y **Backup/Restauración**.
+- [ ] **Componente Lanzador de Dados:** Crear una UI para tirar dados (d4, d6, d20...) que acepte modificadores.
+- [ ] **Modelado de Datos Extendido (TS):** Definir interfaces para `Monster`, `Item` y `Feat`.
 
-**3. Implementación del Perfil D&D 5e**
-- [ ] **Hoja de Personaje (D&D 5e):**
-    - [ ] UI para mostrar estadísticas, habilidades, vida, etc.
-    - [ ] Lógica para la creación de personajes paso a paso.
-- [ ] **Herramientas de Juego (D&D 5e):**
-    - [ ] **Lanzador de Dados:** Componente para realizar tiradas con modificadores.
-    - [ ] **Gestor de Combate:** Sistema de iniciativa, seguimiento de HP y condiciones.
-    - [ ] **Buscador de Contenido:** UI para buscar y filtrar conjuros, monstruos y objetos del SRD.
+**Hito 1.3: Implementación Completa del Perfil D&D 5e**
+*El objetivo es tener un perfil de D&D 5e completamente funcional. Al final de este hito, se podrá probar la creación de un personaje y la gestión de un combate simple.*
+- [ ] **Creación de Personajes D&D 5e:** Implementar el flujo completo (raza, clase, trasfondo).
+- [ ] **Hoja de Personaje D&D 5e:** UI completa para mostrar toda la información del personaje.
+- [ ] **Gestor de Combate D&D 5e:**
+    - [ ] Implementar el tracker de iniciativa.
+    - [ ] Implementar el seguimiento de HP y condiciones.
+- [ ] **Buscadores de Contenido D&D 5e:** UI para buscar y filtrar monstruos y objetos del SRD.
 
-**4. Implementación del Perfil Paizo (Pathfinder 2e & Starfinder)**
-- [ ] **Hoja de Personaje (Paizo):** UI adaptada al sistema de dotes.
-- [ ] **Herramientas de Juego (Paizo):** Gestor de combate de 3 acciones y buscador de contenido mixto.
+### 🔄 Fase 2: Implementación del Perfil Paizo
 
-### 🔄 Fase 2: Expansión y Nuevos Sistemas
+Esta fase se dedica por completo a integrar el segundo gran ecosistema de juegos, aprovechando la base construida en la Fase 1.
+
+- [ ] **Preparación de Datos (Python):** Desarrollar script de web scraping para `Archives of Nethys` (Pathfinder 2e) y Starfinder.
+- [ ] **Hoja de Personaje Paizo:**
+    - [ ] UI adaptada al sistema de dotes (Ancestría, Trasfondo, Clase).
+    - [ ] Lógica para la selección de sistema (PF2e, Starfinder, o mixto).
+- [ ] **Herramientas de Juego Paizo:**
+    - [ ] Adaptación del gestor de combate al sistema de 3 acciones.
+    - [ ] Buscador de contenido con soporte para ambos sistemas (PF2e/SF).
+
+### 🔄 Fase 3: Expansión con Nuevos Sistemas
 
 - [ ] **Implementación del Perfil Daggerheart.**
+- [ ] **Implementación del Perfil Vampiro.**
 - [ ] Mejoras en las herramientas de Master (creadores de encuentros, editores de statblocks).
 - [ ] Sistema de gestión de compañeros y mascotas.
 
-### 🔄 Fase 3: Pulido y Futuro
+### 🔄 Fase 4: Pulido y Futuro
 
-- [ ] **Implementación del Perfil Vampiro.**
 - [ ] Soporte multi-idioma y opciones de accesibilidad.
+- [ ] Optimización del rendimiento y la experiencia de usuario.
 - [ ] Exploración de la comercialización.
 
 ---
