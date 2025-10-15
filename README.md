@@ -69,8 +69,8 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 *El objetivo es validar la arquitectura base. Al final de este hito, se podrá probar la interacción con una lista de conjuros de D&D 5e.*
 - [x] **Entorno y Documentación:** Configuración de Git, React, Vite y `README.md`.
 - [x] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
-- [ ] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
-- [ ] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD 5.2.
+- [x] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
+- [x] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD 5.2.
 - [ ] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
 - [ ] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
 - [ ] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
