@@ -42,7 +42,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 **Hito 1.1: Prototipo "El Grimorio" (Prueba de Concepto)**
 *El objetivo es validar la arquitectura base. Al final de este hito, se podrá probar la interacción con una lista de conjuros de D&D 5e.*
 - [x] **Entorno y Documentación:** Configuración de Git, React, Vite y `README.md`.
-- [ ] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
+- [x] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
 - [ ] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
 - [ ] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD de D&D 5e.
 - [ ] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
