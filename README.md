@@ -30,12 +30,38 @@ Este proyecto se construye sobre un stack de tecnologías web modernas, enfocado
 *   **Análisis de Código:** **ESLint** - Para mantener un código limpio, consistente y libre de errores.
 
 ---
+### Estructura del Proyecto de React (`Mesa`)
 
-## 🗺️ Hoja de Ruta Detallada
+```
+/Mesa
+|-- /public               # Archivos estáticos públicos (íconos, etc.)
+|-- /src                  # Código fuente de la aplicación
+|   |-- /assets           # Imágenes, logos y otros recursos
+|   |-- /components       # Componentes de React reutilizables (ej. <SpellCard>, <Button>)
+|   |-- /data             # Archivos de datos estáticos (ej. spells.json)
+|   |-- /hooks            # Hooks de React personalizados (ej. useLocalStorage)
+|   |-- /pages            # Componentes que representan páginas completas (ej. GrimoirePage)
+|   |-- /services         # Lógica de negocio y comunicación con APIs (ej. DatabaseService)
+|   |-- /types            # Definiciones de tipos e interfaces de TypeScript (ej. Spell.ts)
+|   |-- App.css           # Estilos principales del componente App
+|   |-- App.tsx           # Componente raíz de la aplicación
+|   |-- index.css         # Estilos globales de la aplicación
+|   |-- main.tsx          # Punto de entrada de la aplicación React
+|-- .eslintrc.cjs         # Configuración de ESLint (calidad de código)
+|-- .gitignore            # Archivos y carpetas ignorados por Git
+|-- index.html            # Plantilla HTML principal
+|-- package.json          # Dependencias y scripts del proyecto
+|-- README.md             # Documentación del proyecto
+|-- tsconfig.json         # Configuración del compilador de TypeScript
+|-- vite.config.ts        # Configuración de Vite (servidor de desarrollo)
+```
+---
+
+## 🗺️ Hoja de Ruta Detallada ✅
 
 El desarrollo se organiza en fases, y cada fase se compone de **hitos de desarrollo con entregables probables**.
 
-### ✅ Fase 1: Fundación y Perfil D&D 5e Completo
+### 🔄 Fase 1: Fundación y Perfil D&D 5e Completo
 
 El objetivo de esta fase es construir la arquitectura fundamental de la aplicación y lanzar una versión completamente funcional del **Perfil D&D 5e**.
 
@@ -44,7 +70,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 - [x] **Entorno y Documentación:** Configuración de Git, React, Vite y `README.md`.
 - [x] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
 - [ ] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
-- [ ] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD de D&D 5e.
+- [ ] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD 5.2.
 - [ ] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
 - [ ] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
 - [ ] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
@@ -69,7 +95,13 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
     - [ ] Implementar el seguimiento de HP y condiciones.
 - [ ] **Buscadores de Contenido D&D 5e:** UI para buscar y filtrar monstruos y objetos del SRD.
 
-### 🔄 Fase 2: Implementación del Perfil Paizo
+### 🔄 Fase 2: Pulido y Futuro
+
+- [ ] Soporte multi-idioma y opciones de accesibilidad.
+- [ ] Optimización del rendimiento y la experiencia de usuario.
+- [ ] Exploración de la comercialización.
+
+### 🔄 Fase 3: Implementación del Perfil Paizo
 
 Esta fase se dedica por completo a integrar el segundo gran ecosistema de juegos, aprovechando la base construida en la Fase 1.
 
@@ -79,21 +111,19 @@ Esta fase se dedica por completo a integrar el segundo gran ecosistema de juegos
     - [ ] Lógica para la selección de sistema (PF2e, Starfinder, o mixto).
 - [ ] **Herramientas de Juego Paizo:**
     - [ ] Adaptación del gestor de combate al sistema de 3 acciones.
-    - [ ] Buscador de contenido con soporte para ambos sistemas (PF2e/SF).
+    - [ ] Buscador de contenido con soporte para ambos sistemas (PF2e/SF2e).
 
-### 🔄 Fase 3: Expansión con Nuevos Sistemas
+### 🔄 Fase 4: Expansión a Daggerheart
 
 - [ ] **Implementación del Perfil Daggerheart.**
-- [ ] **Implementación del Perfil Vampiro.**
 - [ ] Mejoras en las herramientas de Master (creadores de encuentros, editores de statblocks).
 - [ ] Sistema de gestión de compañeros y mascotas.
 
-### 🔄 Fase 4: Pulido y Futuro
+### 🔄 Fase 5: Expansión a Vampiro
 
-- [ ] Soporte multi-idioma y opciones de accesibilidad.
-- [ ] Optimización del rendimiento y la experiencia de usuario.
-- [ ] Exploración de la comercialización.
-
+- [ ] **Implementación del Perfil Vampiro.**
+- [ ] Mejoras en las herramientas de Master (creadores de encuentros, editores de statblocks).
+- [ ] Sistema de gestión de compañeros y mascotas.
 ---
 
 *Desarrollado por Devil-Nika.*
