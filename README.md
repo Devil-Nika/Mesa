@@ -72,11 +72,11 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 - [x] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
 - [x] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD 5.2.
 - [x] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
-- [ ] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
-- [ ] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
-- [ ] **Funcionalidad de Prueba:**
-    - [ ] Crear una página "Grimorio" que liste los conjuros.
-    - [ ] Implementar un modal para ver el detalle de un conjuro.
+- [x] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
+- [x] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
+- [x] **Funcionalidad de Prueba:**
+    - [x] Crear una página "Grimorio" que liste los conjuros.
+    - [x] Implementar un modal para ver el detalle de un conjuro.
     - [ ] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
 
 **Hito 1.2: Núcleo de la Aplicación y Herramientas Genéricas**

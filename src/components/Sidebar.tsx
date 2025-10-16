@@ -1,8 +1,9 @@
-// Sidebar de navegación con enlaces a secciones
+// Sidebar con enlaces de navegación
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
+import { NavLink } from 'react-router-dom';
 
 interface SidebarProps {
     open: boolean;
@@ -10,19 +11,18 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
-    const items = [
-        { text: 'Grimorio' },
-        { text: 'Personajes' },
-    ];
-
     return (
         <Drawer open={open} onClose={onClose}>
             <List sx={{ width: 250 }}>
-                {items.map((item) => (
-                    <ListItemButton key={item.text}>
-                        <ListItemText primary={item.text} />
-                    </ListItemButton>
-                ))}
+                <ListItemButton component={NavLink} to="/" onClick={onClose}>
+                    <ListItemText primary="Inicio" />
+                </ListItemButton>
+                <ListItemButton component={NavLink} to="/grimorio" onClick={onClose}>
+                    <ListItemText primary="Grimorio" />
+                </ListItemButton>
+                <ListItemButton component={NavLink} to="/personajes" onClick={onClose}>
+                    <ListItemText primary="Personajes" />
+                </ListItemButton>
             </List>
         </Drawer>
     );
