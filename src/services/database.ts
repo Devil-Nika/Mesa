@@ -1,6 +1,6 @@
 import Dexie, { type Table } from 'dexie'
 
-import spells from '../data/spells.json'
+import spellsData from '../data/spells.json'
 import type { Spell } from '../types/Spell'
 
 class MesaDatabase extends Dexie {
@@ -11,22 +11,28 @@ class MesaDatabase extends Dexie {
         this.version(1).stores({
             spells: '&id, name, level, school, casting_time',
         })
+
+        this.spells = this.table('spells')
     }
 }
 
 export const database = new MesaDatabase()
 
+const seedSpellsData = spellsData as Spell[]
+
 async function seedSpells() {
-    const currentCount = await database.spells.count()
+    await database.transaction('rw', database.spells, async () => {
+        const currentCount = await database.spells.count()
 
-    if (currentCount > 0) {
-        return
-    }
+        if (currentCount > 0) {
+            return
+        }
 
-    await database.spells.bulkPut(spells as Spell[])
+        await database.spells.bulkPut(seedSpellsData)
+    })
 }
 
-export async function initializeDatabase() {
+export async function initializeDatabase(): Promise<MesaDatabase> {
     if (!database.isOpen()) {
         await database.open()
     }

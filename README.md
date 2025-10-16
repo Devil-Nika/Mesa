@@ -71,7 +71,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 - [x] **Estructura de Carpetas:** Definir la organización de directorios (`components`, `types`, etc.).
 - [x] **Modelado de Datos Mínimo (TS):** Definir interfaces para `Spell` y un `Character` simple.
 - [x] **Datos de Prueba (Python):** Crear un script para generar un `spells.json` del SRD 5.2.
-- [ ] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
+- [x] **Instalación de Librerías Clave:** Instalar y configurar Material-UI (MUI) y Dexie.js.
 - [ ] **Layout Básico:** Crear un `Header` y `Sidebar` usando MUI.
 - [ ] **Servicio de Base de Datos:** Implementar la carga inicial de `spells.json` en IndexedDB.
 - [ ] **Funcionalidad de Prueba:**

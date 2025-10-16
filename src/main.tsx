@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { CssBaseline, ThemeProvider } from '@mui/material'
+
 import App from './App.tsx'
 import { initializeDatabase } from './services/database'
 import theme from './theme/theme'
@@ -12,15 +13,23 @@ if (!rootElement) {
     throw new Error('Failed to find the root element')
 }
 
-initializeDatabase().catch((error) => {
-    console.error('Failed to initialize the database', error)
-})
+const root = createRoot(rootElement)
 
-createRoot(rootElement).render(
-    <StrictMode>
-        <ThemeProvider theme={theme}>
-            <CssBaseline />
-            <App />
-        </ThemeProvider>
-    </StrictMode>
-);
+async function startApp() {
+    try {
+        await initializeDatabase()
+    } catch (error) {
+        console.error('Failed to initialize the database', error)
+    }
+
+    root.render(
+        <StrictMode>
+            <ThemeProvider theme={theme}>
+                <CssBaseline />
+                <App />
+            </ThemeProvider>
+        </StrictMode>,
+    )
+}
+
+void startApp()
