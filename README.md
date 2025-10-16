@@ -76,7 +76,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 - [x] **Funcionalidad de Prueba:**
     - [x] Crear una página "Grimorio" que liste los conjuros.
     - [x] Implementar un modal para ver el detalle de un conjuro.
-    - [ ] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
+    - [x] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
 
 - [ ] **Mantenimiento y Refactorización (en curso):**
     - [ ] Adaptar el `Header` para que los enlaces de navegación (Inicio, Conjuros, Personajes) se muestren en la barra superior y puedan ocultarse en el modo combate/iniciativa.

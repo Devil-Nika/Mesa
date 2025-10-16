@@ -1,28 +1,38 @@
-// Sidebar con enlaces de navegación
+// Selección de sistema de juego en el Drawer
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { NavLink } from 'react-router-dom';
 
 interface SidebarProps {
     open: boolean;
     onClose: () => void;
+    selectedSystem: string;
+    onSelectSystem: (system: string) => void;
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
+const Sidebar: React.FC<SidebarProps> = ({
+                                             open,
+                                             onClose,
+                                             selectedSystem,
+                                             onSelectSystem,
+                                         }) => {
+    const systems = [{ key: 'dnd5e', name: 'Dungeons & Dragons' }];
     return (
         <Drawer open={open} onClose={onClose}>
             <List sx={{ width: 250 }}>
-                <ListItemButton component={NavLink} to="/" onClick={onClose}>
-                    <ListItemText primary="Inicio" />
-                </ListItemButton>
-                <ListItemButton component={NavLink} to="/grimorio" onClick={onClose}>
-                    <ListItemText primary="Grimorio" />
-                </ListItemButton>
-                <ListItemButton component={NavLink} to="/personajes" onClick={onClose}>
-                    <ListItemText primary="Personajes" />
-                </ListItemButton>
+                {systems.map((sys) => (
+                    <ListItemButton
+                        key={sys.key}
+                        selected={selectedSystem === sys.key}
+                        onClick={() => {
+                            onSelectSystem(sys.key);
+                            onClose();
+                        }}
+                    >
+                        <ListItemText primary={sys.name} />
+                    </ListItemButton>
+                ))}
             </List>
         </Drawer>
     );
