@@ -1,7 +1,7 @@
-import type { Spell } from './Spell';
+import type { Spell } from './Spell'
 
-export interface Character{
-    id: number;
-    name: string;
-    preparedSpells: Spell[];
+export interface Character {
+    id: number
+    name: string
+    preparedSpells: Spell[]
 }
