@@ -7,6 +7,7 @@ export interface Spell {
     range: string
     components: string
     duration: string
+    ritual?: boolean
     description: string
     higher_level?: string
     classes: string[]

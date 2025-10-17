@@ -79,8 +79,8 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
     - [x] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
 
 - [ ] **Mantenimiento y Refactorización (en curso):**
-    - [ ] Adaptar el `Header` para que los enlaces de navegación (Inicio, Conjuros, Personajes) se muestren en la barra superior y puedan ocultarse en el modo combate/iniciativa.
-    - [ ] Convertir el `Sidebar` en un selector de sistema de juego (por ahora solo Dungeons & Dragons).
+    - [x] Adaptar el `Header` para que los enlaces de navegación (Inicio, Conjuros, Personajes) se muestren en la barra superior y puedan ocultarse en el modo combate/iniciativa.
+    - [x] Convertir el `Sidebar` en un selector de sistema de juego (por ahora solo Dungeons & Dragons).
     - [ ] Agrupar los conjuros por nivel y permitir ordenarlos por nombre o escuela, además de filtrarlos por clase y componentes (V, S, M, Ritual).
     - [ ] Sustituir iconos de Material UI por imágenes personalizadas (logos de D&D, conjuros, personajes, monstruos, etc.).
     - [ ] Ampliar la interfaz `Spell` y el script de generación de `spells.json` para incluir la bandera `ritual` y componentes detallados.
