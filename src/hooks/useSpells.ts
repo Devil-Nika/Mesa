@@ -14,7 +14,11 @@ const useSpells = () => {
                 database.spells
                     .toArray()
                     .then((data: Spell[]) => {
-                        setSpells(data);
+                        // ⚙️ Filtrar datos SRD si el usuario eligió ocultarlos
+                        const hideSRD = localStorage.getItem('hideSRD') === 'true';
+                        const visible = hideSRD ? data.filter((s) => !s.isSRD) : data;
+
+                        setSpells(visible);
                         setLoading(false);
                     })
                     .catch(() => setLoading(false)),

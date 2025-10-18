@@ -11,4 +11,5 @@ export interface Spell {
     description: string
     higher_level?: string
     classes: string[]
+    isSRD: boolean
 }

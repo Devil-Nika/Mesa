@@ -5,37 +5,28 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Grimorio from './pages/Grimorio';
 import Personajes from './pages/Personajes';
+import Configuracion from './pages/Configuracion';
+import { SystemProvider } from './context/SystemContext';
 
 const App: React.FC = () => {
     const [drawerOpen, setDrawerOpen] = useState(false);
-    const [selectedSystem, setSelectedSystem] = useState('dnd5e');
-    const toggleDrawer = () => setDrawerOpen((prev) => !prev);
+    const toggleDrawer = () => setDrawerOpen((p) => !p);
 
     return (
-        <BrowserRouter>
-            <Header onDrawerToggle={toggleDrawer} />
-            <Sidebar
-                open={drawerOpen}
-                onClose={toggleDrawer}
-                selectedSystem={selectedSystem}
-                onSelectSystem={setSelectedSystem}
-            />
-            <Container sx={{ mt: 8 }}>
-                <Routes>
-                    <Route
-                        path="/"
-                        element={
-                            <>
-                                <h1>Mesa de Juego</h1>
-                                <p>Bienvenido a tu asistente de dirección de rol.</p>
-                            </>
-                        }
-                    />
-                    <Route path="/grimorio" element={<Grimorio />} />
-                    <Route path="/personajes" element={<Personajes />} />
-                </Routes>
-            </Container>
-        </BrowserRouter>
+        <SystemProvider>
+            <BrowserRouter>
+                <Header onDrawerToggle={toggleDrawer} />
+                <Sidebar open={drawerOpen} onClose={toggleDrawer} />
+                <Container sx={{ mt: 8 }}>
+                    <Routes>
+                        <Route path="/" element={<div>Inicio</div>} />
+                        <Route path="/grimorio" element={<Grimorio />} />
+                        <Route path="/personajes" element={<Personajes />} />
+                        <Route path="/configuracion" element={<Configuracion />} />
+                    </Routes>
+                </Container>
+            </BrowserRouter>
+        </SystemProvider>
     );
 };
 

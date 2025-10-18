@@ -1,4 +1,3 @@
-// src/pages/Grimorio.tsx
 import { useMemo, useState } from 'react';
 import {
     Box,
@@ -21,13 +20,12 @@ import {
     CircularProgress,
     Typography,
 } from '@mui/material';
-import type { SelectChangeEvent } from '@mui/material/Select'; // ✅ tipo separado
+import type { SelectChangeEvent } from '@mui/material/Select';
 import SpellModal from '../components/SpellModal';
 import useSpells from '../hooks/useSpells';
 import type { Spell } from '../types/Spell';
 
-
-// Helpers mínimos -------------------------------------------------------------
+// Helpers ---------------------------------------------------------------------
 const hasComponent = (spell: Spell, flag: 'V' | 'S' | 'M') =>
     spell.components.toUpperCase().includes(flag);
 
@@ -47,7 +45,7 @@ type SortKey = 'name' | 'school';
 const Grimorio: React.FC = () => {
     const { spells, loading } = useSpells();
 
-    // Estado de UI --------------------------------------------------------------
+    // Estado UI ------------------------------------------------------------------
     const [search, setSearch] = useState('');
     const [selectedClass, setSelectedClass] = useState<string>('');
     const [componentsFilter, setComponentsFilter] = useState({
@@ -59,35 +57,34 @@ const Grimorio: React.FC = () => {
     const [sortBy, setSortBy] = useState<SortKey>('name');
     const [selectedSpell, setSelectedSpell] = useState<Spell | null>(null);
 
-    // Opciones de selects (derivadas) -------------------------------------------
+    // Opciones derivadas ---------------------------------------------------------
     const availableClasses = useMemo(
         () => Array.from(new Set(spells.flatMap((s) => s.classes))).sort(),
         [spells]
     );
 
-    // Filtrado + orden + agrupado ----------------------------------------------
+    // Filtrado + orden + agrupado ------------------------------------------------
     const grouped = useMemo(() => {
-        // 1) Filtrar por texto, clase y componentes
         const q = search.trim().toLowerCase();
+
         const filtered = spells.filter((s) => {
             const matchesText =
                 !q ||
                 s.name.toLowerCase().includes(q) ||
                 s.description.toLowerCase().includes(q) ||
                 s.school.toLowerCase().includes(q);
-            const matchesClass =
-                !selectedClass || s.classes.includes(selectedClass);
+
+            const matchesClass = !selectedClass || s.classes.includes(selectedClass);
             const matchesComponents = passesComponentFilters(s, componentsFilter);
+
             return matchesText && matchesClass && matchesComponents;
         });
 
-        // 2) Ordenar dentro de cada grupo por sortBy
         const sorter =
             sortBy === 'name'
                 ? (a: Spell, b: Spell) => a.name.localeCompare(b.name, 'es')
                 : (a: Spell, b: Spell) => a.school.localeCompare(b.school, 'es');
 
-        // 3) Agrupar por nivel
         const map = new Map<number, Spell[]>();
         filtered.forEach((s) => {
             const arr = map.get(s.level) ?? [];
@@ -95,15 +92,14 @@ const Grimorio: React.FC = () => {
             map.set(s.level, arr);
         });
 
-        // 4) Ordenar grupos por nivel asc y ordenar internamente
         const levels = Array.from(map.keys()).sort((a, b) => a - b);
         return levels.map((lvl) => ({
             level: lvl,
-            spells: map.get(lvl)!.sort(sorter),
+            spells: (map.get(lvl) ?? []).sort(sorter),
         }));
     }, [spells, search, selectedClass, componentsFilter, sortBy]);
 
-    // Handlers de controles -----------------------------------------------------
+    // Handlers -------------------------------------------------------------------
     const onChangeClass = (e: SelectChangeEvent<string>) => {
         setSelectedClass(e.target.value);
     };
@@ -135,16 +131,20 @@ const Grimorio: React.FC = () => {
                 fullWidth
             />
 
-            {/* Filtros y orden */}
-            <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', alignItems: 'center' }}>
+            {/* Filtros y orden: layout estable (altura mínima + columnas fijas) */}
+            <Box
+                sx={{
+                    display: 'grid',
+                    gridTemplateColumns: { xs: '1fr', sm: '1fr 220px 1fr auto' },
+                    gap: 2,
+                    alignItems: 'center',
+                    minHeight: 88,
+                }}
+            >
                 {/* Clase */}
                 <FormControl sx={{ minWidth: 220 }}>
                     <InputLabel>Clase</InputLabel>
-                    <Select
-                        label="Clase"
-                        value={selectedClass}
-                        onChange={onChangeClass}
-                    >
+                    <Select label="Clase" value={selectedClass} onChange={onChangeClass}>
                         <MenuItem value="">Todas</MenuItem>
                         {availableClasses.map((c) => (
                             <MenuItem key={c} value={c}>
@@ -195,7 +195,7 @@ const Grimorio: React.FC = () => {
                 </FormGroup>
 
                 {/* Orden */}
-                <Box sx={{ ml: 'auto' }}>
+                <Box sx={{ ml: { xs: 0, sm: 'auto' } }}>
                     <ToggleButtonGroup
                         size="small"
                         color="primary"
@@ -222,13 +222,7 @@ const Grimorio: React.FC = () => {
                     No se encontraron conjuros con los filtros actuales.
                 </Typography>
             ) : (
-                <List
-                    sx={{
-                        width: '100%',
-                        bgcolor: 'transparent',
-                    }}
-                    subheader={<li />}
-                >
+                <List sx={{ width: '100%', bgcolor: 'transparent' }} subheader={<li />}>
                     {grouped.map(({ level, spells: group }) => (
                         <li key={level}>
                             <ul style={{ padding: 0, margin: 0 }}>
@@ -258,9 +252,7 @@ const Grimorio: React.FC = () => {
                                     >
                                         <ListItemText
                                             primary={spell.name}
-                                            secondary={`${spell.school} • ${spell.casting_time} • ${spell.range} • ${spell.components}${
-                                                spell.ritual ? ' • Ritual' : ''
-                                            }`}
+                                            secondary={`${spell.school} • ${spell.casting_time} • ${spell.range} • ${spell.components}${spell.ritual ? ' • Ritual' : ''}`}
                                         />
                                     </ListItemButton>
                                 ))}
