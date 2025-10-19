@@ -36,10 +36,13 @@ Este proyecto se construye sobre un stack de tecnologías web modernas, enfocado
 |-- /src                  # Código fuente de la aplicación
 |   |-- /assets           # Imágenes, logos y otros recursos
 |   |-- /components       # Componentes de React reutilizables (ej. <SpellCard>, <Button>)
+|   |-- /context          # Maneja estados globales de la aplicación con React Context API 
 |   |-- /data             # Archivos de datos estáticos (ej. spells.json)
 |   |-- /hooks            # Hooks de React personalizados (ej. useLocalStorage)
 |   |-- /pages            # Componentes que representan páginas completas (ej. GrimoirePage)
 |   |-- /services         # Lógica de negocio y comunicación con APIs (ej. DatabaseService)
+|   |-- /systems          # Módulos independientes por sistema de juego, con sus propios componentes y assets.
+|   |-- /theme            # Configuracion del tema visual usando Material UI.
 |   |-- /types            # Definiciones de tipos e interfaces de TypeScript (ej. Spell.ts)
 |   |-- App.css           # Estilos principales del componente App
 |   |-- App.tsx           # Componente raíz de la aplicación
