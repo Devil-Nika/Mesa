@@ -1,3 +1,4 @@
+// Interfaz para Conjuros (Spells)
 export interface Spell {
     id: string
     name: string

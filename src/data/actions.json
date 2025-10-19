@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "type": "actions",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_actions": 14,
+    "srd_actions": 14,
+    "non_srd_actions": 0
+  },
+  "actions": [
+    {
+      "id": "attack_xphb",
+      "name": "Attack",
+      "time": "1 action",
+      "description": "When you take the Attack action, you can make one attack roll with a weapon or an . **Equipping and Unequipping Weapons**:  You can either equip or unequip one weapon when you make an attack as part of this action. You do so either before or after the attack. If you equip a weapon before an attack, you don't need to use it for that attack. Equipping a weapon includes drawing it from a sheath or picking it up. Unequipping a weapon includes sheathing, stowing, or dropping it. **Moving Between Attacks**:  If you move on your turn and have a feature, such as Extra Attack, that gives you more than one attack as part of the Attack action, you can use some or all of that movement to move between those attacks.",
+      "source": "XPHB",
+      "page": 361,
+      "seeAlso": [
+        "Two-Weapon Fighting|XPHB"
+      ],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "dash_xphb",
+      "name": "Dash",
+      "time": "1 action",
+      "description": "When you take the Dash action, you gain extra movement for the current turn. The increase equals your after applying any modifiers. With a of 30 feet, for example, you can move up to 60 feet on your turn if you Dash. If your of 30 feet is reduced to 15 feet, you can move up to 30 feet this turn if you Dash. If you have a special speed, such as a or , you can use that speed instead of your when you take this action. You choose which speed to use each time you take it.",
+      "source": "XPHB",
+      "page": 365,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "disengage_xphb",
+      "name": "Disengage",
+      "time": "1 action",
+      "description": "If you take the Disengage action, your movement doesn't provoke for the rest of the current turn.",
+      "source": "XPHB",
+      "page": 366,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "dodge_xphb",
+      "name": "Dodge",
+      "time": "1 action",
+      "description": "lf you take the Dodge action, you gain the following benefits: until the start of your next turn, any attack roll made against you has if you can see the attacker, and you make Dexterity with . You lose these benefits if you have the condition or if your is 0.",
+      "source": "XPHB",
+      "page": 366,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "don_or_doff_a_shield_xphb",
+      "name": "Don or Doff a Shield",
+      "time": "1 action",
+      "description": "A can be donned or doffed as an action.",
+      "source": "XPHB",
+      "page": 219,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "escape_a_grapple_xphb",
+      "name": "Escape a Grapple",
+      "time": "1 action",
+      "description": "A Grappled creature can use its action to make a Strength () or Dexterity () check against the grapple's escape DC, ending the on itself on a success. The also ends if the grappler has the condition or if the distance between the Grappled target and the grappler exceeds the grapple's range.",
+      "source": "XPHB",
+      "page": 367,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "help_xphb",
+      "name": "Help",
+      "time": "1 action",
+      "description": "When you take the Help action, you do one of the following. **Assist an Ability Check**:  Choose one of your skill or tool proficiencies and one ally who is near enough for you to assist verbally or physically when they make an ability check. That ally has on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The DM has final say on whether your assistance is possible. **Assist an Attack Roll**:  You momentarily distract an enemy within 5 feet of you, giving to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn.",
+      "source": "XPHB",
+      "page": 368,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "hide_xphb",
+      "name": "Hide",
+      "time": "1 action",
+      "description": "With the Hide action, you try to conceal yourself. To do so, you must succeed on a Dexterity () check while you're or behind , and you must be out of any enemy's line of sight; if you can see a creature, you can discern whether it can see you. On a successful check, you have the condition. Make note of your check's total, which is the DC for a creature to find you with a Wisdom () check. You stop being hidden immediately after any of the following occurs: you make a sound louder than a whisper, an enemy finds you, you make an attack roll, or you cast a spell with a Verbal component.",
+      "source": "XPHB",
+      "page": 368,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "magic_xphb",
+      "name": "Magic",
+      "time": "1 action",
+      "description": "When you take the Magic action, you cast a spell that has a casting time of an action or use a feature or magic item that requires a Magic action to be activated. If you cast a spell that has a casting time of 1 minute or longer, you must take the Magic action on each turn of that casting, and you must maintain while you do so. If your is broken, the spell fails, but you don't expend a spell slot.",
+      "source": "XPHB",
+      "page": 371,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "opportunity_attack_xphb",
+      "name": "Opportunity Attack",
+      "time": "1 reaction",
+      "description": "You can make an Opportunity Attack when a creature that you can see leaves your reach using its action, its , its , or one of its speeds. To make the Opportunity Attack, take a to make one melee attack with a weapon or an against the provoking creature. The attack occurs right before the creature leaves your reach.",
+      "source": "XPHB",
+      "page": 371,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "ready_xphb",
+      "name": "Ready",
+      "time": "1 action",
+      "description": "You take the Ready action to wait for a particular circumstance before you act. To do so, you take this action on your turn, which lets you act by taking a before the start of your next turn. First, you decide what perceivable circumstance will trigger your . Then, you choose the action you will take in response to that trigger, or you choose to move up to your in response to it. Examples include \"If the cultist steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the zombie steps next to me, I move away.\" When the trigger occurs, you can either take your right after the trigger finishes or ignore the trigger. When you Ready a spell, you cast it as normal (expending any resources used to cast it) but hold its energy, which you release with your when the trigger occurs. To be readied, a spell must have a casting time of an action, and holding on to the spell's magic requires , which you can maintain up to the start of your next turn. If your is broken, the spell dissipates without taking effect.",
+      "source": "XPHB",
+      "page": 372,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "search_xphb",
+      "name": "Search",
+      "time": "1 action",
+      "description": "When you take the Search action, you make a Wisdom check to discern something that isn't obvious. The Search table suggests which skills are applicable when you take this action, depending on what you're trying to detect.",
+      "source": "XPHB",
+      "page": 373,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "two-weapon_fighting_xphb",
+      "name": "Two-Weapon Fighting",
+      "time": "1 bonus",
+      "description": "When you take the action on your turn and attack with a Light weapon, you can make one extra attack as a later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a in one hand and a in the other using the action and a , but you don't add your Strength or Dexterity modifier to the damage roll of the unless that modifier is negative.",
+      "source": "XPHB",
+      "page": 213,
+      "seeAlso": [
+        "Attack|XPHB"
+      ],
+      "isSRD": true,
+      "edition": "one"
+    },
+    {
+      "id": "utilize_xphb",
+      "name": "Utilize",
+      "time": "1 action",
+      "description": "You normally interact with an object while doing something else, such as when you draw a sword as part of the action. When an object requires an action for its use, you take the Utilize action.",
+      "source": "XPHB",
+      "page": 377,
+      "seeAlso": [],
+      "isSRD": true,
+      "edition": "one"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "type": "backgrounds",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_backgrounds": 1,
+    "srd_backgrounds": 1,
+    "non_srd_backgrounds": 0
+  },
+  "backgrounds": [
+    {
+      "id": "acolyte_xphb",
+      "name": "Acolyte",
+      "description": "",
+      "abilityImprovements": [
+        "Choose from: Intelligence, Wisdom, Charisma",
+        "Choose from: Intelligence, Wisdom, Charisma"
+      ],
+      "skillProficiencies": [
+        "Insight",
+        "Religion"
+      ],
+      "languageProficiencies": [],
+      "toolProficiencies": [
+        {
+          "calligrapher's supplies": true
+        }
+      ],
+      "feats": [
+        "Magic Initiate; Cleric"
+      ],
+      "source": "XPHB",
+      "page": 178,
+      "isSRD": true,
+      "edition": "one"
+    }
+  ]
+}

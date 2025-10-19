@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "type": "optional_features",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_features": 29,
+    "srd_features": 29,
+    "non_srd_features": 0
+  },
+  "optionalFeatures": [
+    {
+      "id": "agonizing_blast_xphb",
+      "name": "Agonizing Blast",
+      "featureType": [
+        "EI"
+      ],
+      "description": "Choose one of your known that deals damage. You can add your Charisma modifier to that spell's damage rolls. **Repeatable**:  You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "armor_of_shadows_xphb",
+      "name": "Armor of Shadows",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast on yourself without expending a spell slot.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "ascendant_step_xphb",
+      "name": "Ascendant Step",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast on yourself without expending a spell slot.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "careful_spell_xphb",
+      "name": "Careful Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",
+      "source": "XPHB",
+      "page": 141,
+      "isSRD": true
+    },
+    {
+      "id": "devil's_sight_xphb",
+      "name": "Devil's Sight",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can see normally in and —both magical and nonmagical—within 120 feet of yourself.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "distant_spell_xphb",
+      "name": "Distant Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.",
+      "source": "XPHB",
+      "page": 141,
+      "isSRD": true
+    },
+    {
+      "id": "eldritch_spear_xphb",
+      "name": "Eldritch Spear",
+      "featureType": [
+        "EI"
+      ],
+      "description": "Choose one of your known that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level. **Repeatable**:  You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "empowered_spell_xphb",
+      "name": "Empowered Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls. You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "extended_spell_xphb",
+      "name": "Extended Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours. If the affected spell requires , you have on any saving throw you make to maintain that .",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "fiendish_vigor_xphb",
+      "name": "Fiendish Vigor",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the ; you automatically get the highest number on the die.",
+      "source": "XPHB",
+      "page": 155,
+      "isSRD": true
+    },
+    {
+      "id": "gaze_of_two_minds_xphb",
+      "name": "Gaze of Two Minds",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can use a to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "heightened_spell_xphb",
+      "name": "Heightened Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell on saves against the spell.",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "lifedrinker_xphb",
+      "name": "Lifedrinker",
+      "featureType": [
+        "EI"
+      ],
+      "description": "Once per turn when you hit a creature with your pact weapon, you can deal an extra Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your to roll it and regain a number of equal to the roll plus your Constitution modifier (minimum of 1 ).",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "mask_of_many_faces_xphb",
+      "name": "Mask of Many Faces",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast without expending a spell slot.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "master_of_myriad_forms_xphb",
+      "name": "Master of Myriad Forms",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast without expending a spell slot.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "misty_visions_xphb",
+      "name": "Misty Visions",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast without expending a spell slot.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "one_with_shadows_xphb",
+      "name": "One with Shadows",
+      "featureType": [
+        "EI"
+      ],
+      "description": "While you're in an area of or , you can cast on yourself without expending a spell slot.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "otherworldly_leap_xphb",
+      "name": "Otherworldly Leap",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast on yourself without expending a spell slot.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "pact_of_the_blade_xphb",
+      "name": "Pact of the Blade",
+      "featureType": [
+        "EI"
+      ],
+      "description": "As a , you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a . Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type. Your bond with the weapon ends if you use this feature's again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.",
+      "source": "XPHB",
+      "page": 156,
+      "isSRD": true
+    },
+    {
+      "id": "pact_of_the_chain_xphb",
+      "name": "Pact of the Chain",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You learn the spell and can cast it as a action without expending a spell slot. When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: , , , , , , , or (see appendix B for the familiar's stat block). Additionally, when you take the action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its .",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "pact_of_the_tome_xphb",
+      "name": "Pact of the Tome",
+      "featureType": [
+        "EI"
+      ],
+      "description": "Stitching together strands of shadow, you conjure forth a book in your hand at the end of a or . This Book of Shadows (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die. **Cantrips and Rituals**:  When the book appears, choose three , and choose two that have the tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you. **Spellcasting Focus**:  You can use the book as a .",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "quickened_spell_xphb",
+      "name": "Quickened Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "repelling_blast_xphb",
+      "name": "Repelling Blast",
+      "featureType": [
+        "EI"
+      ],
+      "description": "Choose one of your known that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you. **Repeatable**:  You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "subtle_spell_xphb",
+      "name": "Subtle Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "thirsting_blade_xphb",
+      "name": "Thirsting Blade",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the action on your turn.",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "twinned_spell_xphb",
+      "name": "Twinned Spell",
+      "featureType": [
+        "MM"
+      ],
+      "description": "When you cast a spell, such as , that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.",
+      "source": "XPHB",
+      "page": 142,
+      "isSRD": true
+    },
+    {
+      "id": "visions_of_distant_realms_xphb",
+      "name": "Visions of Distant Realms",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast without expending a spell slot.",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "whispers_of_the_grave_xphb",
+      "name": "Whispers of the Grave",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You can cast without expending a spell slot.",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    },
+    {
+      "id": "witch_sight_xphb",
+      "name": "Witch Sight",
+      "featureType": [
+        "EI"
+      ],
+      "description": "You have with a range of 30 feet.",
+      "source": "XPHB",
+      "page": 157,
+      "isSRD": true
+    }
+  ]
+}

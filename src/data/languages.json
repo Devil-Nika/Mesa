@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "type": "languages",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_languages": 19,
+    "srd_languages": 19,
+    "non_srd_languages": 0
+  },
+  "languages": [
+    {
+      "id": "abyssal_xphb",
+      "name": "Abyssal",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Demons of the Abyss.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "celestial_xphb",
+      "name": "Celestial",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Celestials.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "common_xphb",
+      "name": "Common",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Sigil.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "common_sign_language_xphb",
+      "name": "Common Sign Language",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Sigil.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "deep_speech_xphb",
+      "name": "Deep Speech",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Aberrations.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "draconic_xphb",
+      "name": "Draconic",
+      "type": "standard",
+      "script": "Draconic",
+      "description": "Origin: Dragons.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "druidic_xphb",
+      "name": "Druidic",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Druidic circles.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "dwarvish_xphb",
+      "name": "Dwarvish",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Dwarves.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "elvish_xphb",
+      "name": "Elvish",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Elves.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "giant_xphb",
+      "name": "Giant",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Giants.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "gnomish_xphb",
+      "name": "Gnomish",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Gnomes.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "goblin_xphb",
+      "name": "Goblin",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Goblinoids.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "halfling_xphb",
+      "name": "Halfling",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Halflings.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "infernal_xphb",
+      "name": "Infernal",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Devils of the Nine Hells.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "orc_xphb",
+      "name": "Orc",
+      "type": "standard",
+      "script": "",
+      "description": "Origin: Orcs.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "primordial_xphb",
+      "name": "Primordial",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Elementals.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "sylvan_xphb",
+      "name": "Sylvan",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: The Feywild.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "thieves'_cant_xphb",
+      "name": "Thieves' Cant",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: Various criminal guilds.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    },
+    {
+      "id": "undercommon_xphb",
+      "name": "Undercommon",
+      "type": "rare",
+      "script": "",
+      "description": "Origin: The Underdark.",
+      "source": "XPHB",
+      "page": 37,
+      "isSRD": true
+    }
+  ]
+}

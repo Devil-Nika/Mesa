@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "type": "races",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_races": 6,
+    "srd_races": 6,
+    "non_srd_races": 0
+  },
+  "races": [
+    {
+      "id": "dragonborn_xphb",
+      "name": "Dragonborn",
+      "size": "M",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Draconic Ancestry**:  Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and traits as well as your appearance. **Breath Weapon**:  When you take the action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot or a 30-foot that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw ( plus your Constitution modifier and ). On a failed save, a creature takes damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by when you reach character levels 5 (), 11 (), and 17 (). You can use this Breath Weapon a number of times equal to your , and you regain all expended uses when you finish a . **Damage Resistance**:  You have to the damage type determined by your Draconic Ancestry trait. **Darkvision**:  You have with a range of 60 feet. **Draconic Flight**:  When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a , you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the condition. During that time, you have a equal to your . Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a .",
+      "source": "XPHB",
+      "page": 187,
+      "isSRD": true
+    },
+    {
+      "id": "dwarf_xphb",
+      "name": "Dwarf",
+      "size": "M",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Darkvision**:  You have with a range of 120 feet. **Dwarven Resilience**:  You have to Poison damage. You also have on saving throws you make to avoid or end the condition. **Dwarven Toughness**:  Your maximum increases by 1, and it increases by 1 again whenever you gain a level. **Stonecunning**:  As a , you gain with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this . The stone can be natural or worked. You can use this a number of times equal to your , and you regain all expended uses when you finish a .",
+      "source": "XPHB",
+      "page": 188,
+      "isSRD": true
+    },
+    {
+      "id": "elf_xphb",
+      "name": "Elf",
+      "size": "M",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Darkvision**:  You have with a range of 60 feet. **Elven Lineage**:  You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a . You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage). **Fey Ancestry**:  You have on saving throws you make to avoid or end the condition. **Keen Senses**:  You have proficiency in the , , or skill. **Trance**:  You don't need to sleep, and magic can't put you to sleep. You can finish a in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
+      "source": "XPHB",
+      "page": 189,
+      "isSRD": true
+    },
+    {
+      "id": "gnome_xphb",
+      "name": "Gnome",
+      "size": "S",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Darkvision**:  You have with a range of 60 feet. **Gnomish Cunning**:  You have on Intelligence, Wisdom, and Charisma saving throws. **Gnomish Lineage**:  You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):",
+      "source": "XPHB",
+      "page": 191,
+      "isSRD": true
+    },
+    {
+      "id": "human_xphb",
+      "name": "Human",
+      "size": "S",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Resourceful**:  You gain whenever you finish a . **Skillful**:  You gain proficiency in one skill of your choice. **Versatile**:  You gain an of your choice.",
+      "source": "XPHB",
+      "page": 194,
+      "isSRD": true
+    },
+    {
+      "id": "tiefling_xphb",
+      "name": "Tiefling",
+      "size": "S",
+      "speed": 30,
+      "abilityImprovements": [],
+      "traits": [],
+      "languages": [],
+      "description": "**Darkvision**:  You have with a range of 60 feet. **Fiendish Legacy**:  You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy. When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a . You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy). **Otherworldly Presence**:  You know the cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait.",
+      "source": "XPHB",
+      "page": 197,
+      "isSRD": true
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "metadata": {
+    "type": "feats",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_feats": 19,
+    "srd_feats": 19,
+    "non_srd_feats": 0
+  },
+  "feats": [
+    {
+      "id": "ability_score_improvement_xphb",
+      "name": "Ability Score Improvement",
+      "description": "Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can't increase an ability score above 20. **Repeatable**:  You can take this feat more than once.",
+      "prerequisites": [
+        "Level 4"
+      ],
+      "category": "G",
+      "source": "XPHB",
+      "page": 202,
+      "isSRD": true
+    },
+    {
+      "id": "alert_xphb",
+      "name": "Alert",
+      "description": "You gain the following benefits. **Initiative Proficiency**:  When you roll Initiative, you can add your Proficiency Bonus to the roll. **Initiative Swap**:  Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the condition.",
+      "prerequisites": [],
+      "category": "O",
+      "source": "XPHB",
+      "page": 200,
+      "isSRD": true
+    },
+    {
+      "id": "archery_xphb",
+      "name": "Archery",
+      "description": "You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 209,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_combat_prowess_xphb",
+      "name": "Boon of Combat Prowess",
+      "description": "You gain the following benefits. **Peerless Aim**:  When you miss with an attack roll, you can hit instead. Once you use this benefit, you can't use it again until the start of your next turn.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 210,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_dimensional_travel_xphb",
+      "name": "Boon of Dimensional Travel",
+      "description": "You gain the following benefits. **Blink Steps**:  Immediately after you take the action or the action, you can teleport up to 30 feet to an unoccupied space you can see.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 210,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_fate_xphb",
+      "name": "Boon of Fate",
+      "description": "You gain the following benefits. **Improve Fate**:  When you or another creature within 60 feet of you succeeds on or fails a , you can roll and apply the total rolled as a bonus or penalty to the roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 210,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_irresistible_offense_xphb",
+      "name": "Boon of Irresistible Offense",
+      "description": "You gain the following benefits. **Overcome Defenses**:  The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance. **Overwhelming Strike**:  When you roll a 20 on the for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage's type is the same as the attack's type.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 211,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_spell_recall_xphb",
+      "name": "Boon of Spell Recall",
+      "description": "You gain the following benefits. **Free Casting**:  Whenever you cast a spell with a level 1-4 spell slot, roll . If the number you roll is the same as the slot's level, the slot isn't expended.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 211,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_the_night_spirit_xphb",
+      "name": "Boon of the Night Spirit",
+      "description": "You gain the following benefits. **Merge with Shadows**:  While within Dim Light or Darkness, you can give yourself the condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction. **Shadowy Form**:  While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 211,
+      "isSRD": true
+    },
+    {
+      "id": "boon_of_truesight_xphb",
+      "name": "Boon of Truesight",
+      "description": "You gain the following benefits. **Truesight**:  You have with a range of 60 feet.",
+      "prerequisites": [
+        "Level 19"
+      ],
+      "category": "EB",
+      "source": "XPHB",
+      "page": 211,
+      "isSRD": true
+    },
+    {
+      "id": "defense_xphb",
+      "name": "Defense",
+      "description": "While you're wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 209,
+      "isSRD": true
+    },
+    {
+      "id": "dueling_xphb",
+      "name": "Dueling",
+      "description": "When you're holding a Melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 209,
+      "isSRD": true
+    },
+    {
+      "id": "grappler_xphb",
+      "name": "Grappler",
+      "description": "You gain the following benefits. **Punch and Grab**:  When you hit a creature with an Unarmed Strike as part of the action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn. **Attack Advantage**:  You have Advantage on attack rolls against a creature by you. **Fast Wrestler**:  You don't have to spend extra movement to move a creature by you if the creature is your size or smaller.",
+      "prerequisites": [
+        "Level 4",
+        "Str 13",
+        "Level 4",
+        "Dex 13"
+      ],
+      "category": "G",
+      "source": "XPHB",
+      "page": 204,
+      "isSRD": true
+    },
+    {
+      "id": "great_weapon_fighting_xphb",
+      "name": "Great Weapon Fighting",
+      "description": "When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 209,
+      "isSRD": true
+    },
+    {
+      "id": "magic_initiate_xphb",
+      "name": "Magic Initiate",
+      "description": "You gain the following benefits. **Two Cantrips**:  You learn two cantrips of your choice from the , , or spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat). **Level 1 Spell**:  Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have. **Spell Change**:  Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list. **Repeatable**:  You can take this feat more than once, but you must choose a different spell list each time.",
+      "prerequisites": [],
+      "category": "O",
+      "source": "XPHB",
+      "page": 201,
+      "isSRD": true
+    },
+    {
+      "id": "protection_xphb",
+      "name": "Protection",
+      "description": "When a creature you can see attacks a target other than you that is within 5 feet of you, you can take a Reaction to interpose your Shield if you're holding one. You impose Disadvantage on the triggering attack roll and all other attack rolls against the target until the start of your next turn if you remain within 5 feet of the target.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 209,
+      "isSRD": true
+    },
+    {
+      "id": "savage_attacker_xphb",
+      "name": "Savage Attacker",
+      "description": "You've trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon's damage dice twice and use either roll against the target.",
+      "prerequisites": [],
+      "category": "O",
+      "source": "XPHB",
+      "page": 201,
+      "isSRD": true
+    },
+    {
+      "id": "skilled_xphb",
+      "name": "Skilled",
+      "description": "You gain proficiency in any combination of three or of your choice. **Repeatable**:  You can take this feat more than once.",
+      "prerequisites": [],
+      "category": "O",
+      "source": "XPHB",
+      "page": 201,
+      "isSRD": true
+    },
+    {
+      "id": "two-weapon_fighting_xphb",
+      "name": "Two-Weapon Fighting",
+      "description": "When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren't already adding it to the damage.",
+      "prerequisites": [],
+      "category": "FS",
+      "source": "XPHB",
+      "page": 210,
+      "isSRD": true
+    }
+  ]
+}

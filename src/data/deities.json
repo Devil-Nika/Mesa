@@ -1,0 +1,777 @@
+{
+  "metadata": {
+    "type": "deities",
+    "version": "1.0",
+    "source": "5e.tools",
+    "processed_date": "2024-10-19",
+    "total_deities": 49,
+    "srd_deities": 0,
+    "non_srd_deities": 49
+  },
+  "deities": [
+    {
+      "id": "anubis_phb",
+      "name": "Anubis",
+      "title": "God of judgment and death",
+      "alignment": "Lawful Neutral",
+      "domains": [
+        "Death",
+        "Grave",
+        "Order"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Black jackal",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "apep_phb",
+      "name": "Apep",
+      "title": "God of evil, fire, and serpents",
+      "alignment": "Neutral Evil",
+      "domains": [
+        "Trickery"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Flaming snake",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "aphrodite_phb",
+      "name": "Aphrodite",
+      "title": "Goddess of love and beauty",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Light"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Sea shell",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "apollo_phb",
+      "name": "Apollo",
+      "title": "God of light, music, and healing",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Knowledge",
+        "Life",
+        "Light"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Lyre",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "arawn_phb",
+      "name": "Arawn",
+      "title": "God of life and death",
+      "alignment": "Neutral Evil",
+      "domains": [
+        "Death",
+        "Life"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Black star on gray background",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "ares_phb",
+      "name": "Ares",
+      "title": "God of war and strife",
+      "alignment": "Chaotic Evil",
+      "domains": [
+        "War"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Spear",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "artemis_phb",
+      "name": "Artemis",
+      "title": "Goddess of hunting and childbirth",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Life",
+        "Nature"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Bow and arrow on lunar disk",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "athena_phb",
+      "name": "Athena",
+      "title": "Goddess of wisdom and civilization",
+      "alignment": "Lawful Good",
+      "domains": [
+        "Knowledge",
+        "Order",
+        "War"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Owl",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "bast_phb",
+      "name": "Bast",
+      "title": "Goddess of cats and vengeance",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "War"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Cat",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "belenus_phb",
+      "name": "Belenus",
+      "title": "God of sun, light, and warmth",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Light"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Solar disk and standing stones",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "bes_phb",
+      "name": "Bes",
+      "title": "God of luck and music",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Trickery"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Image of the misshapen deity",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "brigantia_phb",
+      "name": "Brigantia",
+      "title": "Goddess of rivers and livestock",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Life"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Footbridge",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "demeter_phb",
+      "name": "Demeter",
+      "title": "Goddess of agriculture",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Life"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Mare's head",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "diancecht_phb",
+      "name": "Diancecht",
+      "title": "God of medicine and healing",
+      "alignment": "Lawful Good",
+      "domains": [
+        "Life"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Crossed oak and mistletoe branches",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "dionysus_phb",
+      "name": "Dionysus",
+      "title": "God of mirth and wine",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Life"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Thyrsus (staff tipped with pine cone)",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "dunatis_phb",
+      "name": "Dunatis",
+      "title": "God of mountains and peaks",
+      "alignment": "Neutral",
+      "domains": [
+        "Nature"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Red sun-capped mountain peak",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "goibhniu_phb",
+      "name": "Goibhniu",
+      "title": "God of smiths and healing",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Forge",
+        "Knowledge",
+        "Life"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Giant mallet over sword",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hades_phb",
+      "name": "Hades",
+      "title": "God of the underworld",
+      "alignment": "Lawful Evil",
+      "domains": [
+        "Death",
+        "Grave"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Black ram",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hathor_phb",
+      "name": "Hathor",
+      "title": "Goddess of love, music, and motherhood",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Life",
+        "Light"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Horned cow's head with lunar disk",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "hecate_phb",
+      "name": "Hecate",
+      "title": "Goddess of magic and the moon",
+      "alignment": "Chaotic Evil",
+      "domains": [
+        "Arcana",
+        "Knowledge",
+        "Trickery"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Setting moon",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hephaestus_phb",
+      "name": "Hephaestus",
+      "title": "God of smithing and craft",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Forge",
+        "Knowledge"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Hammer and anvil",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hera_phb",
+      "name": "Hera",
+      "title": "Goddess of marriage and intrigue",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Trickery"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Fan of peacock feathers",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hercules_phb",
+      "name": "Hercules",
+      "title": "God of strength and adventure",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Tempest",
+        "War"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Lion's head",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hermes_phb",
+      "name": "Hermes",
+      "title": "God of travel and commerce",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Trickery"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Caduceus (winged staff and serpents)",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "hestia_phb",
+      "name": "Hestia",
+      "title": "Goddess of home and family",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Life"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Hearth",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "imhotep_phb",
+      "name": "Imhotep",
+      "title": "God of crafts and medicine",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Knowledge"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Step pyramid",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "isis_phb",
+      "name": "Isis",
+      "title": "Goddess of fertility and magic",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Arcana",
+        "Knowledge",
+        "Life"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Ankh and star",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "lugh_phb",
+      "name": "Lugh",
+      "title": "God of arts, travel, and commerce",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Knowledge",
+        "Life"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Pair of long hands",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "manannan_mac_lir_phb",
+      "name": "Manannan mac Lir",
+      "title": "God of oceans and sea creatures",
+      "alignment": "Lawful Neutral",
+      "domains": [
+        "Nature",
+        "Tempest"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Wave of white water on green",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "math_mathonwy_phb",
+      "name": "Math Mathonwy",
+      "title": "God of magic",
+      "alignment": "Neutral Evil",
+      "domains": [
+        "Arcana",
+        "Knowledge"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Staff",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "morrigan_phb",
+      "name": "Morrigan",
+      "title": "Goddess of battle",
+      "alignment": "Chaotic Evil",
+      "domains": [
+        "War"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Two crossed spears",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "nephthys_phb",
+      "name": "Nephthys",
+      "title": "Goddess of death and grief",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Death"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Horns around a lunar disk",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "nike_phb",
+      "name": "Nike",
+      "title": "Goddess of victory",
+      "alignment": "Lawful Neutral",
+      "domains": [
+        "War"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Winged woman",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "nuada_phb",
+      "name": "Nuada",
+      "title": "God of war and warriors",
+      "alignment": "Neutral",
+      "domains": [
+        "Order",
+        "War"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Silver hand on black background",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "oghma_phb",
+      "name": "Oghma",
+      "title": "God of speech and writing",
+      "alignment": "Neutral Good",
+      "domains": [
+        "Knowledge"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Unfurled scroll",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "oghma_phb",
+      "name": "Oghma",
+      "title": "God of knowledge",
+      "alignment": "Neutral",
+      "domains": [
+        "Knowledge"
+      ],
+      "pantheon": "Forgotten Realms",
+      "symbol": "Blank scroll",
+      "description": "",
+      "source": "PHB",
+      "page": 294,
+      "isSRD": false
+    },
+    {
+      "id": "osiris_phb",
+      "name": "Osiris",
+      "title": "God of nature and the underworld",
+      "alignment": "Lawful Good",
+      "domains": [
+        "Grave",
+        "Life",
+        "Nature"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Crook and flail",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "pan_phb",
+      "name": "Pan",
+      "title": "God of nature",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Nature"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Syrinx (pan pipes)",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "poseidon_phb",
+      "name": "Poseidon",
+      "title": "God of the sea and earthquakes",
+      "alignment": "Chaotic Neutral",
+      "domains": [
+        "Tempest"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Trident",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "ptah_phb",
+      "name": "Ptah",
+      "title": "God of crafts, knowledge, and secrets",
+      "alignment": "Lawful Neutral",
+      "domains": [
+        "Knowledge"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Bull",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "re-horakhty_phb",
+      "name": "Re-Horakhty",
+      "title": "God of the sun, ruler of the gods",
+      "alignment": "Lawful Good",
+      "domains": [
+        "Life",
+        "Light"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Solar disk encircled by serpent",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "set_phb",
+      "name": "Set",
+      "title": "God of darkness and desert storms",
+      "alignment": "Chaotic Evil",
+      "domains": [
+        "Death",
+        "Tempest",
+        "Trickery"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Coiled cobra",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "silvanus_phb",
+      "name": "Silvanus",
+      "title": "God of nature and forests",
+      "alignment": "Neutral",
+      "domains": [
+        "Nature"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Summer oak tree",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "silvanus_phb",
+      "name": "Silvanus",
+      "title": "God of wild nature",
+      "alignment": "Neutral",
+      "domains": [
+        "Nature"
+      ],
+      "pantheon": "Forgotten Realms",
+      "symbol": "Oak leaf",
+      "description": "",
+      "source": "PHB",
+      "page": 294,
+      "isSRD": false
+    },
+    {
+      "id": "sobek_phb",
+      "name": "Sobek",
+      "title": "God of water and crocodiles",
+      "alignment": "Lawful Evil",
+      "domains": [
+        "Nature",
+        "Tempest"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Crocodile head with horns and plumes",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "the_daghdha_phb",
+      "name": "The Daghdha",
+      "title": "God of weather and crops",
+      "alignment": "Chaotic Good",
+      "domains": [
+        "Nature",
+        "Trickery"
+      ],
+      "pantheon": "Celtic",
+      "symbol": "Bubbling cauldron or shield",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "thoth_phb",
+      "name": "Thoth",
+      "title": "God of knowledge and wisdom",
+      "alignment": "Neutral",
+      "domains": [
+        "Knowledge"
+      ],
+      "pantheon": "Egyptian",
+      "symbol": "Ibis",
+      "description": "",
+      "source": "PHB",
+      "page": 299,
+      "isSRD": false
+    },
+    {
+      "id": "tyche_phb",
+      "name": "Tyche",
+      "title": "Goddess of good fortune",
+      "alignment": "Neutral",
+      "domains": [
+        "Trickery"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Red pentagram",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    },
+    {
+      "id": "zeus_phb",
+      "name": "Zeus",
+      "title": "God of the sky, ruler of the gods",
+      "alignment": "Neutral",
+      "domains": [
+        "Tempest"
+      ],
+      "pantheon": "Greek",
+      "symbol": "Fist full of lightning bolts",
+      "description": "",
+      "source": "PHB",
+      "page": 298,
+      "isSRD": false
+    }
+  ]
+}
