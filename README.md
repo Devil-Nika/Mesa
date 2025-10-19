@@ -93,7 +93,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 *El objetivo es crear los sistemas transversales y componentes reutilizables.*
 - [x] **Arquitectura de Perfiles:** Implementar el sistema base para poder seleccionar un perfil de juego.
 - [ ] **Componente Lanzador de Dados:** Crear una UI para tirar dados (d4, d6, d20...) que acepte modificadores.
-- [ ] **Modelado de Datos Extendido (TS):** Definir interfaces para .
+- [ ] **Modelado de Datos Extendido (TS):** Definir interfaces para las otras bases de datos y reformular las que ya existen. .
 
 **Hito 1.3: Implementación Completa del Perfil D&D 5e**
 *El objetivo es tener un perfil de D&D 5e completamente funcional. Al final de este hito, se podrá probar la creación de un personaje y la gestión de un combate simple.*
