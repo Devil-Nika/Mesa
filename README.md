@@ -81,25 +81,19 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
     - [x] Implementar un modal para ver el detalle de un conjuro.
     - [x] Implementar la lógica para "preparar" un conjuro y verlo en una hoja de personaje de prueba.
 
-- [ ] **Mantenimiento y Refactorización (en curso):**
+- [x] **Mantenimiento y Refactorización (en curso):**
     - [x] Adaptar el `Header` para que los enlaces de navegación (Inicio, Conjuros, Personajes) se muestren en la barra superior y puedan ocultarse en el modo combate/iniciativa.
     - [x] Convertir el `Sidebar` en un selector de sistema de juego (por ahora solo Dungeons & Dragons).
     - [x] Agrupar los conjuros por nivel y permitir ordenarlos por nombre o escuela, además de filtrarlos por clase y componentes (V, S, M, Ritual).
     - [x] Sustituir iconos de Material UI por imágenes personalizadas (logos de D&D, conjuros, personajes, monstruos, etc.).
-    - [ ] Ampliar la interfaz `Spell` y el script de generación de `spells.json` para incluir la bandera `ritual` y componentes detallados.
 
-- [ ] **Tema y Configuración de Interfaz:**
-    - [ ] Crear un segundo tema (modo claro) y permitir al usuario cambiar entre los temas oscuro y claro.
-    - [ ] Colocar la opción de cambio de tema en la parte inferior del `Sidebar`.
-
-- [ ] **Próximamente:** Dejar visibles, aunque sin funcionalidad, las opciones de **Importar**, **Exportar**, **Restaurar** y **Copia de Seguridad** para que los usuarios sepan que estarán disponibles en futuras versiones.
+- [x] **Próximamente:** Dejar visibles, aunque sin funcionalidad, las opciones de **Importar**, **Exportar**, **Restaurar** y **Copia de Seguridad** para que los usuarios sepan que estarán disponibles en futuras versiones.
 
 **Hito 1.2: Núcleo de la Aplicación y Herramientas Genéricas**
 *El objetivo es crear los sistemas transversales y componentes reutilizables.*
-- [ ] **Arquitectura de Perfiles:** Implementar el sistema base para poder seleccionar un perfil de juego (aunque solo exista D&D 5e por ahora).
-- [ ] **Gestión de Datos:** Implementar el sistema de **Importación/Exportación** y **Backup/Restauración**.
+- [x] **Arquitectura de Perfiles:** Implementar el sistema base para poder seleccionar un perfil de juego.
 - [ ] **Componente Lanzador de Dados:** Crear una UI para tirar dados (d4, d6, d20...) que acepte modificadores.
-- [ ] **Modelado de Datos Extendido (TS):** Definir interfaces para `Monster`, `Item` y `Feat`.
+- [ ] **Modelado de Datos Extendido (TS):** Definir interfaces para .
 
 **Hito 1.3: Implementación Completa del Perfil D&D 5e**
 *El objetivo es tener un perfil de D&D 5e completamente funcional. Al final de este hito, se podrá probar la creación de un personaje y la gestión de un combate simple.*
@@ -112,6 +106,7 @@ El objetivo de esta fase es construir la arquitectura fundamental de la aplicaci
 
 ###  Fase 2: Pulido y Futuro
 
+- [ ] **Gestión de Datos:** Implementar el sistema de **Importación/Exportación** y **Backup/Restauración**.
 - [ ] Soporte multi‑idioma y opciones de accesibilidad.
 - [ ] Optimización del rendimiento y la experiencia de usuario.
 - [ ] Exploración de la comercialización.
